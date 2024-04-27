@@ -1,1 +1,1 @@
-/opt/slurm/bin/squeue -u beidic 
+squeue -u beidic 

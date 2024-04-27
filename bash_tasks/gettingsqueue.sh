@@ -1,1 +1,0 @@
-squeue -u beidic 
