@@ -27,11 +27,11 @@ for script in *.sh; do
    # /opt/slurm/bin/sbatch "$script" 
    echo -e "Submitting $script" >> /private/home/beidic/yang/submitwithcron3/submitted/my_log_file.txt 
    # job_id=$(/opt/slurm/bin/sbatch "$script" | awk '{print $4}') 
-   job_id=$(/opt/slurm/bin/sbatch "$script") 
+   job_id=$(/usr/local/bin/sbatch "$script") 
    echo -e "$(date "+%Y-%m-%d %H:%M:%S") - Job ID: $job_id" >> /private/home/beidic/yang/submitwithcron3/submitted/my_log_file.txt 
 done 
 
-output=$(/opt/slurm/bin/squeue -u beidic) 
+output=$(/usr/local/bin/squeue -u beidic) 
 echo -e "$output" >> /private/home/beidic/yang/submitwithcron3/submitted/my_log_file.txt 
 echo -e "$(date "+%Y-%m-%d %H:%M:%S") - Done submitting jobs\n" >> /private/home/beidic/yang/submitwithcron3/submitted/my_log_file.txt 
 # echo -e "/fsx-storygen/beidic/yang/model_checkpoints/largemodeltinyllama_bf2f352_223990/" >> /fsx-storygen/beidic/yang/submitwithcron/submitted/my_log_file.txt 
