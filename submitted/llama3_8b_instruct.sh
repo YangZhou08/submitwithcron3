@@ -8,7 +8,7 @@
 ## filename for job standard error output (stderr)
 #SBATCH --error=/private/home/beidic/yang/log/log-%j.err
 
-#SBATCH --time=24:00:00 
+#SBATCH --time=24:00:00
 
 ## partition name
 #SBATCH --partition=devlab
@@ -25,22 +25,28 @@
 #SBATCH --no-requeue
 ## SBATCH --array=0-11 # 12 jobs in total 
 
-# source /data/home/beidic/.bashrc 
-# source /data/home/beidic/anaconda3/etc/profile.d/conda.sh 
-# source activate base
-# conda activate base 
+source /private/home/beidic/.bashrc 
+source /public/apps/anaconda3/2022.05/etc/profile.d/conda.sh 
+source activate base 
+conda activate base 
 # mamba activate yangllm 
 # conda activate yangllm 
 conda activate griffin 
-cd /fsx-storygen/beidic/yang/transformersprofiling 
+# cd /fsx-storygen/beidic/yang/transformersprofiling 
+cd /private/home/beidic/yang/GRIFFIN2 
+git pull 
+
 git pull 
 # pip install termcolor 
-pip install -e . 
+# pip install -e . 
 pip install termcolor 
 pip install wandb 
-pip install datasets 
-pip install accelerate 
+# pip install datasets 
+# pip install accelerate 
 pip install -U "huggingface_hub[cli]" 
 pip install matplotlib 
 pip install sentencepiece 
 which python 
+
+accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True --tasks gsm8k --batch_size 1 --limit=128 
+# accelerate launch main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True,thresh=0.9 --tasks gsm8k --batch_size 1 --limit=128 
