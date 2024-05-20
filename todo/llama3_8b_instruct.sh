@@ -34,6 +34,7 @@ conda activate base
 conda activate griffin 
 # cd /fsx-storygen/beidic/yang/transformersprofiling 
 cd /private/home/beidic/yang/GRIFFIN2 
+git pull 
 
 git pull 
 # pip install termcolor 
