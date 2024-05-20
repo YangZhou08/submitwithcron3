@@ -48,5 +48,14 @@ pip install matplotlib
 pip install sentencepiece 
 which python 
 
+export WANDB_API_KEY=fbb26fc8718b8e58d743b5cdcabaa2396656f773 
+wandb login 
+
+which python 
+export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 
+
+echo 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 | transformers-cli login 
+huggingface-cli login --token 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 
+
 accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True --tasks gsm8k --batch_size 1 --limit=128 
 # accelerate launch main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True,thresh=0.9 --tasks gsm8k --batch_size 1 --limit=128 
