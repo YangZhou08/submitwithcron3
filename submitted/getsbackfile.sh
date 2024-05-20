@@ -1,2 +1,2 @@
-mv /private/home/beidic/yang/log/log-1990146.err ../submitted 
-mv /private/home/beidic/yang/log/log-1990146.out ../submitted 
+mv /private/home/beidic/yang/log/log-27875283.err ../submitted 
+mv /private/home/beidic/yang/log/log-27875283.out ../submitted 
