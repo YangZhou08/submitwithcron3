@@ -1,0 +1,262 @@
+ERROR: Exception:
+Traceback (most recent call last):
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/cli/base_command.py", line 180, in exc_logging_wrapper
+    status = run_func(*args)
+             ^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/commands/uninstall.py", line 105, in run
+    uninstall_pathset = req.uninstall(
+                        ^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/req/req_install.py", line 725, in uninstall
+    uninstalled_pathset.remove(auto_confirm, verbose)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/req/req_uninstall.py", line 375, in remove
+    if auto_confirm or self._allowed_to_proceed(verbose):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/req/req_uninstall.py", line 415, in _allowed_to_proceed
+    return ask("Proceed (Y/n)? ", ("y", "n", "")) != "n"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/utils/misc.py", line 241, in ask
+    response = input(message)
+               ^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+fatal: destination path 'transformersprofiling' already exists and is not an empty directory.
+error: pathspec 'yangobservation' did not match any file(s) known to git
+error: unknown option `set-upstream-to=origin/yangobservation'
+usage: git pull [<options>] [<repository> [<refspec>...]]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]progress       force progress reporting
+    --[no-]recurse-submodules[=<on-demand>]
+                          control for recursive fetching of submodules
+
+Options related to merging
+    -r, --[no-]rebase[=(false|true|merges|interactive)]
+                          incorporate changes by rebasing rather than merging
+    -n                    do not show a diffstat at the end of the merge
+    --[no-]stat           show a diffstat at the end of the merge
+    --[no-]log[=<n>]      add (at most <n>) entries from shortlog to merge commit message
+    --[no-]signoff[=...]  add a Signed-off-by trailer
+    --[no-]squash         create a single commit instead of doing a merge
+    --[no-]commit         perform a commit if the merge succeeds (default)
+    --[no-]edit           edit message before committing
+    --[no-]cleanup <mode> how to strip spaces and #comments from message
+    --[no-]ff             allow fast-forward
+    --ff-only             abort if fast-forward is not possible
+    --[no-]verify         control use of pre-merge-commit and commit-msg hooks
+    --[no-]verify-signatures
+                          verify that the named commit has a valid GPG signature
+    --[no-]autostash      automatically stash/stash pop before and after
+    -s, --[no-]strategy <strategy>
+                          merge strategy to use
+    -X, --[no-]strategy-option <option=value>
+                          option for selected merge strategy
+    -S, --[no-]gpg-sign[=<key-id>]
+                          GPG sign commit
+    --[no-]allow-unrelated-histories
+                          allow merging unrelated histories
+
+Options related to fetching
+    --[no-]all            fetch from all remotes
+    -a, --[no-]append     append to .git/FETCH_HEAD instead of overwriting
+    --[no-]upload-pack <path>
+                          path to upload pack on remote end
+    -f, --[no-]force      force overwrite of local branch
+    -t, --[no-]tags       fetch all tags and associated objects
+    -p, --[no-]prune      prune remote-tracking branches no longer on remote
+    -j, --[no-]jobs[=<n>] number of submodules pulled in parallel
+    --[no-]dry-run        dry run
+    -k, --[no-]keep       keep downloaded pack
+    --[no-]depth <depth>  deepen history of shallow clone
+    --[no-]shallow-since <time>
+                          deepen history of shallow repository based on time
+    --[no-]shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --[no-]deepen <n>     deepen history of shallow clone
+    --unshallow           convert to a complete repository
+    --[no-]update-shallow accept refs that update .git/shallow
+    --refmap <refmap>     specify fetch refmap
+    -o, --[no-]server-option <server-specific>
+                          option to transmit
+    -4, --[no-]ipv4       use IPv4 addresses only
+    -6, --[no-]ipv6       use IPv6 addresses only
+    --[no-]negotiation-tip <revision>
+                          report that we have only objects reachable from this object
+    --[no-]show-forced-updates
+                          check for forced-updates on all updated branches
+    --[no-]set-upstream   set upstream for git pull/fetch
+
+From github.com:Infini-AI-Lab/GRIFFIN2
+   31f2cd6..63d0ca7  exp2            -> origin/exp2
+ * [new branch]      yangobservation -> origin/yangobservation
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+    import xevaluator
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+    from xhuggingface import XHFLM
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+    from llamaX0 import get_llama_griffin, LlamaForCausalLM 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llamaX0.py", line 19, in <module>
+    from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+ModuleNotFoundError: No module named 'transformers.cache_utils'
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+    import xevaluator
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+    from xhuggingface import XHFLM
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+    import xevaluator
+    from llamaX0 import get_llama_griffin, LlamaForCausalLM 
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llamaX0.py", line 19, in <module>
+    from xhuggingface import XHFLM
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+    from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+ModuleNotFoundError: No module named 'transformers.cache_utils'
+    from llamaX0 import get_llama_griffin, LlamaForCausalLM 
+    ^^^^^^^^^^^^^^^^/private/home/beidic/yang/transformersprofiling/src/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llamaX0.py", line 19, in <module>
+    from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+ModuleNotFoundError: No module named 'transformers.cache_utils'
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+    import xevaluator
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+    from xhuggingface import XHFLM
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+    from llamaX0 import get_llama_griffin, LlamaForCausalLM 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llamaX0.py", line 19, in <module>
+    from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+ModuleNotFoundError: No module named 'transformers.cache_utils'
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+    import xevaluator
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+    from xhuggingface import XHFLM
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+    from llamaX0 import get_llama_griffin, LlamaForCausalLM 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llamaX0.py", line 19, in <module>
+    from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+ModuleNotFoundError: No module named 'transformers.cache_utils'
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+    import xevaluator
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+    from xhuggingface import XHFLM
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+    from llamaX0 import get_llama_griffin, LlamaForCausalLM 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llamaX0.py", line 19, in <module>
+    from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+ModuleNotFoundError: No module named 'transformers.cache_utils'
+[2024-05-21 04:46:52,997] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2518763 closing signal SIGTERM
+[2024-05-21 04:46:52,998] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2518765 closing signal SIGTERM
+[2024-05-21 04:46:52,998] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2518766 closing signal SIGTERM
+[2024-05-21 04:46:52,998] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2518767 closing signal SIGTERM
+[2024-05-21 04:46:52,998] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2518768 closing signal SIGTERM
+[2024-05-21 04:46:52,998] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2518769 closing signal SIGTERM
+[2024-05-21 04:46:52,998] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2518770 closing signal SIGTERM
+[2024-05-21 04:46:53,113] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 1 (pid: 2518764) of binary: /private/home/beidic/.conda/envs/griffin/bin/python
+Traceback (most recent call last):
+  File "/private/home/beidic/.conda/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-05-21_04:46:52
+  host      : learnfair5075.h2.fair
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 2518764)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
