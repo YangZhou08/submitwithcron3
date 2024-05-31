@@ -1,0 +1,612 @@
+Already on 'exp2'
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2024-05-31:04:18:28,099 INFO     [main.py:288] Verbosity set to INFO
+2024-05-31:04:18:28,099 INFO     [main.py:288] Verbosity set to INFO
+2024-05-31:04:18:28,102 INFO     [main.py:288] Verbosity set to INFO
+2024-05-31:04:18:28,108 INFO     [main.py:288] Verbosity set to INFO
+2024-05-31:04:18:28,225 INFO     [main.py:288] Verbosity set to INFO
+2024-05-31:04:18:28,308 INFO     [main.py:288] Verbosity set to INFO
+2024-05-31:04:18:28,330 INFO     [main.py:288] Verbosity set to INFO
+2024-05-31:04:18:28,453 INFO     [main.py:288] Verbosity set to INFO
+2024-05-31:04:18:35,306 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-05-31:04:18:35,306 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-05-31:04:18:35,306 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-05-31:04:18:35,306 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-05-31:04:18:35,307 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-05-31:04:18:35,317 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-31:04:18:35,317 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-31:04:18:35,317 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-31:04:18:35,317 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-31:04:18:35,317 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False}
+2024-05-31:04:18:35,317 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False}
+2024-05-31:04:18:35,317 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-31:04:18:35,317 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False}
+2024-05-31:04:18:35,317 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False}
+2024-05-31:04:18:35,317 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False}
+2024-05-31:04:18:35,366 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-05-31:04:18:35,371 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-31:04:18:35,371 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False}
+2024-05-31:04:18:35,374 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-05-31:04:18:35,378 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-05-31:04:18:35,379 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-31:04:18:35,379 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False}
+2024-05-31:04:18:35,383 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-31:04:18:35,383 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False}
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:32<01:38, 32.85s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:34<01:42, 34.31s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:34<01:42, 34.30s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:34<01:43, 34.54s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:34<01:43, 34.39s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:34<01:43, 34.48s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:34<01:43, 34.51s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:34<01:44, 34.98s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:04<01:04, 32.07s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:06<01:05, 32.79s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:06<01:05, 32.93s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:06<01:06, 33.12s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:06<01:05, 32.83s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:06<01:05, 32.81s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:06<01:05, 32.82s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:06<01:05, 32.83s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:36<00:31, 31.64s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:37<00:32, 32.48s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:38<00:32, 32.41s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:37<00:32, 32.35s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:38<00:32, 32.59s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:37<00:32, 32.37s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:37<00:32, 32.37s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:37<00:32, 32.38s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 21.69s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 25.77s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 21.69s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 25.81s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 21.69s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 25.82s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 21.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 25.92s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 21.88s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 25.81s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 21.70s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 25.82s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 21.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 25.85s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 21.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:43<00:00, 25.84s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-05-31:04:20:20,731 INFO     [xhuggingface.py:312] Using 8 devices with data parallelism
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-05-31:04:20:23,447 INFO     [task.py:395] Building contexts for gsm8k on rank 5...
+  0%|          | 0/165 [00:00<?, ?it/s]2024-05-31:04:20:23,487 INFO     [task.py:395] Building contexts for gsm8k on rank 7...
+  0%|          | 0/164 [00:00<?, ?it/s] 11%|█         | 18/165 [00:00<00:00, 178.40it/s]2024-05-31:04:20:23,580 INFO     [task.py:395] Building contexts for gsm8k on rank 4...
+  0%|          | 0/165 [00:00<?, ?it/s] 13%|█▎        | 21/164 [00:00<00:00, 204.12it/s] 13%|█▎        | 21/165 [00:00<00:00, 205.10it/s] 22%|██▏       | 36/165 [00:00<00:00, 147.53it/s] 26%|██▌       | 42/164 [00:00<00:00, 204.58it/s] 25%|██▌       | 42/165 [00:00<00:00, 206.07it/s] 38%|███▊      | 63/164 [00:00<00:00, 204.98it/s] 32%|███▏      | 52/165 [00:00<00:00, 140.82it/s]2024-05-31:04:20:23,841 INFO     [task.py:395] Building contexts for gsm8k on rank 3...
+  0%|          | 0/165 [00:00<?, ?it/s] 38%|███▊      | 63/165 [00:00<00:00, 205.94it/s] 51%|█████     | 84/164 [00:00<00:00, 204.73it/s] 41%|████      | 67/165 [00:00<00:00, 138.10it/s]  8%|▊         | 14/165 [00:00<00:01, 137.88it/s] 51%|█████     | 84/165 [00:00<00:00, 206.16it/s] 64%|██████▍   | 105/164 [00:00<00:00, 205.09it/s] 49%|████▉     | 81/165 [00:00<00:00, 138.31it/s] 18%|█▊        | 29/165 [00:00<00:00, 139.25it/s] 64%|██████▎   | 105/165 [00:00<00:00, 203.78it/s] 77%|███████▋  | 126/164 [00:00<00:00, 206.11it/s] 58%|█████▊    | 96/165 [00:00<00:00, 139.16it/s] 27%|██▋       | 44/165 [00:00<00:00, 140.13it/s] 76%|███████▋  | 126/165 [00:00<00:00, 204.53it/s] 90%|████████▉ | 147/164 [00:00<00:00, 205.77it/s] 67%|██████▋   | 111/165 [00:00<00:00, 139.55it/s] 36%|███▌      | 59/165 [00:00<00:00, 139.57it/s]100%|██████████| 164/164 [00:00<00:00, 205.48it/s]
+ 89%|████████▉ | 147/165 [00:00<00:00, 204.45it/s] 76%|███████▌  | 125/165 [00:00<00:00, 138.12it/s] 44%|████▍     | 73/165 [00:00<00:00, 138.88it/s]100%|██████████| 165/165 [00:00<00:00, 204.51it/s]
+ 84%|████████▍ | 139/165 [00:00<00:00, 138.11it/s] 53%|█████▎    | 87/165 [00:00<00:00, 138.94it/s] 93%|█████████▎| 154/165 [00:01<00:00, 138.76it/s] 61%|██████    | 101/165 [00:00<00:00, 139.10it/s]100%|██████████| 165/165 [00:01<00:00, 140.25it/s]
+ 73%|███████▎  | 120/165 [00:00<00:00, 152.98it/s] 85%|████████▌ | 141/165 [00:00<00:00, 170.08it/s] 98%|█████████▊| 162/165 [00:01<00:00, 180.43it/s]100%|██████████| 165/165 [00:01<00:00, 157.36it/s]
+2024-05-31:04:20:25,222 INFO     [task.py:395] Building contexts for gsm8k on rank 1...
+  0%|          | 0/165 [00:00<?, ?it/s] 13%|█▎        | 21/165 [00:00<00:00, 208.06it/s] 26%|██▌       | 43/165 [00:00<00:00, 209.34it/s] 39%|███▉      | 64/165 [00:00<00:00, 208.39it/s] 52%|█████▏    | 86/165 [00:00<00:00, 209.27it/s] 65%|██████▌   | 108/165 [00:00<00:00, 209.89it/s] 78%|███████▊  | 129/165 [00:00<00:00, 207.86it/s] 91%|█████████ | 150/165 [00:00<00:00, 208.19it/s]100%|██████████| 165/165 [00:00<00:00, 208.58it/s]
+2024-05-31:04:20:32,545 INFO     [task.py:395] Building contexts for gsm8k on rank 2...
+  0%|          | 0/165 [00:00<?, ?it/s] 13%|█▎        | 22/165 [00:00<00:00, 210.30it/s] 27%|██▋       | 44/165 [00:00<00:00, 205.96it/s] 39%|███▉      | 65/165 [00:00<00:00, 206.90it/s] 52%|█████▏    | 86/165 [00:00<00:00, 207.85it/s] 65%|██████▍   | 107/165 [00:00<00:00, 207.68it/s] 78%|███████▊  | 128/165 [00:00<00:00, 208.15it/s] 90%|█████████ | 149/165 [00:00<00:00, 208.57it/s]100%|██████████| 165/165 [00:00<00:00, 208.16it/s]
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-05-31:04:22:10,287 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-05-31:04:22:10,287 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-05-31:04:22:10,289 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-05-31:04:22:10,289 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-05-31:04:22:10,555 INFO     [task.py:395] Building contexts for gsm8k on rank 6...
+  0%|          | 0/165 [00:00<?, ?it/s]2024-05-31:04:22:10,587 INFO     [task.py:395] Building contexts for gsm8k on rank 0...
+  0%|          | 0/165 [00:00<?, ?it/s] 13%|█▎        | 21/165 [00:00<00:00, 205.04it/s] 13%|█▎        | 21/165 [00:00<00:00, 205.85it/s] 25%|██▌       | 42/165 [00:00<00:00, 204.83it/s] 25%|██▌       | 42/165 [00:00<00:00, 206.77it/s] 38%|███▊      | 63/165 [00:00<00:00, 201.49it/s] 38%|███▊      | 63/165 [00:00<00:00, 207.19it/s] 51%|█████     | 84/165 [00:00<00:00, 202.51it/s] 51%|█████     | 84/165 [00:00<00:00, 207.95it/s] 64%|██████▎   | 105/165 [00:00<00:00, 201.70it/s] 64%|██████▎   | 105/165 [00:00<00:00, 207.34it/s] 76%|███████▋  | 126/165 [00:00<00:00, 202.64it/s] 76%|███████▋  | 126/165 [00:00<00:00, 207.72it/s] 89%|████████▉ | 147/165 [00:00<00:00, 202.59it/s] 89%|████████▉ | 147/165 [00:00<00:00, 207.82it/s]100%|██████████| 165/165 [00:00<00:00, 202.78it/s]
+100%|██████████| 165/165 [00:00<00:00, 206.96it/s]
+2024-05-31:04:22:21,051 INFO     [xevaluator.py:395] Running generate_until requests
+2024-05-31:04:22:21,051 INFO     [xevaluator.py:395] Running generate_until requests
+2024-05-31:04:22:21,051 INFO     [xevaluator.py:395] Running generate_until requests
+2024-05-31:04:22:21,051 INFO     [xevaluator.py:395] Running generate_until requests
+2024-05-31:04:22:21,051 INFO     [xevaluator.py:395] Running generate_until requests
+2024-05-31:04:22:21,051 INFO     [xevaluator.py:395] Running generate_until requests
+2024-05-31:04:22:21,051 INFO     [xevaluator.py:395] Running generate_until requests
+2024-05-31:04:22:21,051 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/165 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+              ^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 1185, in generate_until
+    cont = self._model_generate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 745, in _model_generate
+    outputs = self.model.generate(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 1758, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 2397, in _sample
+    outputs = self(
+              ^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 929, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 711, in forward
+    past_key_values = GriffinCache()
+                      ^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/cache.py", line 17, in __init__
+    self.seen_tokens = 0  # Used in `generate` to keep tally of how many tokens the cache has seen
+    ^^^^^^^^^^^^^^^^
+AttributeError: property 'seen_tokens' of 'GriffinCache' object has no setter
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+              ^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 1185, in generate_until
+    cont = self._model_generate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 745, in _model_generate
+    outputs = self.model.generate(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 1758, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 2397, in _sample
+    outputs = self(
+              ^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 929, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 711, in forward
+    past_key_values = GriffinCache()
+                      ^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/cache.py", line 17, in __init__
+    self.seen_tokens = 0  # Used in `generate` to keep tally of how many tokens the cache has seen
+    ^^^^^^^^^^^^^^^^
+AttributeError: property 'seen_tokens' of 'GriffinCache' object has no setter
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+              ^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 1185, in generate_until
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cont = self._model_generate(
+           ^^^^^^    ^cli_evaluate()^
+^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 745, in _model_generate
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    cli_evaluate()
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+              ^^^^^^^^^^    ^outputs = self.model.generate(^
+^^^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+ ^^^^^  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^    ^return func(*args, **kwargs)^
+^^^^^^^
+   File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+          results = xevaluator.simple_evaluate( 
+   ^^^ ^ ^ ^^ ^ ^ ^^ ^ ^ ^^ ^ ^ ^ ^ ^^^
+^^^^^^^^  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 1758, in generate
+^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    results = evaluate(
+              ^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^    ^return fn(*args, **kwargs)^
+
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 2397, in _sample
+    results = evaluate(
+              ^^^^^^^^^
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 1185, in generate_until
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    outputs = self(
+              ^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    cont = self._model_generate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 745, in _model_generate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 1185, in generate_until
+    outputs = self.model.generate(
+              ^^^^^^^^^^^^    ^return self._call_impl(*args, **kwargs)^
+^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    cont = self._model_generate(
+           ^^^^^^^^^^^^    ^return func(*args, **kwargs)^
+^^^^^^^
+      File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 745, in _model_generate
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 1758, in generate
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    outputs = self.model.generate(
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 929, in forward
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    result = self._sample(
+             ^^^^^^^^^^^    ^^return func(*args, **kwargs)
+
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 2397, in _sample
+    outputs = self.model(
+                         ^^^^^^^^^^^^^^^^^^^^^
+^^  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 1758, in generate
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    outputs = self(
+              ^^^^^
+      File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 2397, in _sample
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 711, in forward
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    past_key_values = GriffinCache()
+                    outputs = self( 
+       ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^
+^^^
+  File "/private/home/beidic/yang/GRIFFIN2/cache.py", line 17, in __init__
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 929, in forward
+    self.seen_tokens = 0  # Used in `generate` to keep tally of how many tokens the cache has seen
+    ^^^^^^^^^^^^^^^^
+AttributeError: property 'seen_tokens' of 'GriffinCache' object has no setter
+    return self._call_impl(*args, **kwargs)
+       outputs = self.model( 
+             ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^^
+^^^  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^    ^return forward_call(*args, **kwargs)^
+^^^^^^^^^^^^^^^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^
+^^^  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 929, in forward
+    outputs = self.model(
+     return forward_call(*args, **kwargs) 
+                ^  ^ ^ ^ ^ ^ ^^^^^^^^^^
+^^^^^^  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 711, in forward
+    past_key_values = GriffinCache()
+                      ^^^^^^^^^^^^^^
+    return self._call_impl(*args, **kwargs)
+  File "/private/home/beidic/yang/GRIFFIN2/cache.py", line 17, in __init__
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    self.seen_tokens = 0  # Used in `generate` to keep tally of how many tokens the cache has seen
+    ^^^^^^^^^^^^^^^^
+AttributeError: property 'seen_tokens' of 'GriffinCache' object has no setter
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 711, in forward
+    past_key_values = GriffinCache()
+                      ^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/cache.py", line 17, in __init__
+    self.seen_tokens = 0  # Used in `generate` to keep tally of how many tokens the cache has seen
+    ^^^^^^^^^^^^^^^^
+AttributeError: property 'seen_tokens' of 'GriffinCache' object has no setter
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+              ^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 1185, in generate_until
+    cont = self._model_generate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 745, in _model_generate
+    outputs = self.model.generate(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 1758, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 2397, in _sample
+    outputs = self(
+              ^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 929, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 711, in forward
+    past_key_values = GriffinCache()
+                      ^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/cache.py", line 17, in __init__
+    self.seen_tokens = 0  # Used in `generate` to keep tally of how many tokens the cache has seen
+    ^^^^^^^^^^^^^^^^
+AttributeError: property 'seen_tokens' of 'GriffinCache' object has no setter
+Running generate_until requests:   0%|          | 0/165 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+              ^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 1185, in generate_until
+    cont = self._model_generate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 745, in _model_generate
+    outputs = self.model.generate(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 1758, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 2397, in _sample
+    outputs = self(
+              ^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 929, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 711, in forward
+    past_key_values = GriffinCache()
+                      ^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/cache.py", line 17, in __init__
+    self.seen_tokens = 0  # Used in `generate` to keep tally of how many tokens the cache has seen
+    ^^^^^^^^^^^^^^^^
+AttributeError: property 'seen_tokens' of 'GriffinCache' object has no setter
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+              ^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 1185, in generate_until
+    cont = self._model_generate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/xhuggingface.py", line 745, in _model_generate
+    outputs = self.model.generate(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 1758, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/generation/utils.py", line 2397, in _sample
+    outputs = self(
+              ^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 929, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/llama8.py", line 711, in forward
+    past_key_values = GriffinCache()
+                      ^^^^^^^^^^^^^^
+  File "/private/home/beidic/yang/GRIFFIN2/cache.py", line 17, in __init__
+    self.seen_tokens = 0  # Used in `generate` to keep tally of how many tokens the cache has seen
+    ^^^^^^^^^^^^^^^^
+AttributeError: property 'seen_tokens' of 'GriffinCache' object has no setter
+[2024-05-31 04:22:26,292] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 6063) of binary: /private/home/beidic/.conda/envs/griffin/bin/python
+Traceback (most recent call last):
+  File "/private/home/beidic/.conda/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-05-31_04:22:26
+  host      : learnfair5058.h2.fair
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 6064)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-05-31_04:22:26
+  host      : learnfair5058.h2.fair
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 6065)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-05-31_04:22:26
+  host      : learnfair5058.h2.fair
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 6066)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-05-31_04:22:26
+  host      : learnfair5058.h2.fair
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 6067)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-05-31_04:22:26
+  host      : learnfair5058.h2.fair
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 6068)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-05-31_04:22:26
+  host      : learnfair5058.h2.fair
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 6069)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-05-31_04:22:26
+  host      : learnfair5058.h2.fair
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 6070)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-05-31_04:22:26
+  host      : learnfair5058.h2.fair
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 6063)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
