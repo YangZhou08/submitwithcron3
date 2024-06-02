@@ -32,6 +32,7 @@ conda activate base
 # mamba activate yangllm 
 # conda activate yangllm 
 conda activate griffin 
+pip install --force-reinstall transformers==4.38.1
 # cd /fsx-storygen/beidic/yang/transformersprofiling 
 cd /private/home/beidic/yang/GRIFFIN2 
 git checkout exp2 
