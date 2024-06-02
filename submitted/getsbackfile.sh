@@ -10,5 +10,5 @@
 # mv /private/home/beidic/yang/log/log-25462565.err ../submitted 
 # mv /private/home/beidic/yang/log/log-28462565.out ../submitted 
 
-mv /private/home/beidic/yang/log/log-28496978.err ../submitted 
-mv /private/home/beidic/yang/log/log-28496978.out ../submitted 
+mv /private/home/beidic/yang/log/log-28515018.err ../submitted 
+mv /private/home/beidic/yang/log/log-28515018.out ../submitted 
