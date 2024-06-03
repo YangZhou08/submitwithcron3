@@ -11,7 +11,7 @@
 #SBATCH --time=24:00:00
 
 ## partition name
-#SBATCH --partition=devlab
+#SBATCH --partition=learnfair 
 ## number of nodes
 #SBATCH --nodes=1
 
@@ -34,7 +34,7 @@ conda activate base
 conda activate griffin 
 # cd /fsx-storygen/beidic/yang/transformersprofiling 
 cd /private/home/beidic/yang/GRIFFIN2 
-git checkout exp2 
+git checkout yangexp2 
 git pull 
 
 git pull 
