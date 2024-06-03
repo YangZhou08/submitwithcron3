@@ -35,7 +35,7 @@ conda activate griffin
 pip install --force-reinstall transformers==4.38.1
 # cd /fsx-storygen/beidic/yang/transformersprofiling 
 cd /private/home/beidic/yang/GRIFFIN2 
-git checkout exp2 
+git checkout yangexp2 
 git pull 
 
 git pull 
