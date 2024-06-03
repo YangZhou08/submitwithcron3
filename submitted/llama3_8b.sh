@@ -61,6 +61,6 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 echo 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 | transformers-cli login 
 huggingface-cli login --token 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 
 
-accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,griffin=False,check=False --tasks gsm8k --batch_size 1 
+accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-13b-hf,griffin=False,check=False --tasks gsm8k --batch_size 1 
 # accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-chat-hf,cats=True,check=False --tasks gsm8k --batch_size 1 
 # accelerate launch main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True,thresh=0.9 --tasks gsm8k --batch_size 1 --limit=128 
