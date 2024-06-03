@@ -1,0 +1,72 @@
+M	__pycache__/cache.cpython-312.pyc
+M	__pycache__/xevaluator.cpython-312.pyc
+M	__pycache__/xhuggingface.cpython-312.pyc
+Your branch is up to date with 'origin/yangexp2'.
+Already up to date.
+Already up to date.
+Looking in indexes: https://pypi.org/simple, http://webservice
+Requirement already satisfied: termcolor in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (2.4.0)
+Looking in indexes: https://pypi.org/simple, http://webservice
+Requirement already satisfied: wandb in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (0.16.3)
+Requirement already satisfied: Click!=8.0.0,>=7.1 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from wandb) (8.1.7)
+Requirement already satisfied: GitPython!=3.1.29,>=1.0.0 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from wandb) (3.1.42)
+Requirement already satisfied: requests<3,>=2.0.0 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from wandb) (2.32.3)
+Requirement already satisfied: psutil>=5.0.0 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from wandb) (5.9.8)
+Requirement already satisfied: sentry-sdk>=1.0.0 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from wandb) (1.40.6)
+Requirement already satisfied: docker-pycreds>=0.4.0 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from wandb) (0.4.0)
+Requirement already satisfied: PyYAML in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from wandb) (6.0.1)
+Requirement already satisfied: setproctitle in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from wandb) (1.3.3)
+Requirement already satisfied: setuptools in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from wandb) (68.2.2)
+Requirement already satisfied: appdirs>=1.4.3 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from wandb) (1.4.4)
+Requirement already satisfied: protobuf!=4.21.0,<5,>=3.19.0 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from wandb) (4.25.2)
+Requirement already satisfied: six>=1.4.0 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from docker-pycreds>=0.4.0->wandb) (1.16.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from GitPython!=3.1.29,>=1.0.0->wandb) (4.0.11)
+Requirement already satisfied: charset-normalizer<4,>=2 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from requests<3,>=2.0.0->wandb) (2.2.1)
+Requirement already satisfied: certifi>=2017.4.17 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from requests<3,>=2.0.0->wandb) (2024.6.2)
+Requirement already satisfied: smmap<6,>=3.0.1 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from gitdb<5,>=4.0.1->GitPython!=3.1.29,>=1.0.0->wandb) (5.0.1)
+Looking in indexes: https://pypi.org/simple, http://webservice
+Requirement already satisfied: huggingface_hub[cli] in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (0.23.2)
+Requirement already satisfied: filelock in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from huggingface_hub[cli]) (3.14.0)
+Requirement already satisfied: fsspec>=2023.5.0 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from huggingface_hub[cli]) (2024.5.0)
+Requirement already satisfied: packaging>=20.9 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from huggingface_hub[cli]) (24.0)
+Requirement already satisfied: pyyaml>=5.1 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from huggingface_hub[cli]) (6.0.1)
+Requirement already satisfied: requests in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from huggingface_hub[cli]) (2.32.3)
+Requirement already satisfied: tqdm>=4.42.1 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from huggingface_hub[cli]) (4.66.4)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from huggingface_hub[cli]) (4.12.1)
+Requirement already satisfied: InquirerPy==0.3.4 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from huggingface_hub[cli]) (0.3.4)
+Requirement already satisfied: pfzy<0.4.0,>=0.3.1 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from InquirerPy==0.3.4->huggingface_hub[cli]) (0.3.4)
+Requirement already satisfied: prompt-toolkit<4.0.0,>=3.0.1 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from InquirerPy==0.3.4->huggingface_hub[cli]) (3.0.43)
+Requirement already satisfied: charset-normalizer<4,>=2 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from requests->huggingface_hub[cli]) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from requests->huggingface_hub[cli]) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from requests->huggingface_hub[cli]) (2.2.1)
+Requirement already satisfied: certifi>=2017.4.17 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from requests->huggingface_hub[cli]) (2024.6.2)
+Requirement already satisfied: wcwidth in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from prompt-toolkit<4.0.0,>=3.0.1->InquirerPy==0.3.4->huggingface_hub[cli]) (0.2.13)
+Looking in indexes: https://pypi.org/simple, http://webservice
+Requirement already satisfied: matplotlib in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (3.8.0)
+Requirement already satisfied: contourpy>=1.0.1 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from matplotlib) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from matplotlib) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from matplotlib) (4.25.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from matplotlib) (1.4.4)
+Requirement already satisfied: numpy<2,>=1.21 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from matplotlib) (1.26.4)
+Requirement already satisfied: packaging>=20.0 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from matplotlib) (24.0)
+Requirement already satisfied: pillow>=6.2.0 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from matplotlib) (10.0.1)
+Requirement already satisfied: pyparsing>=2.3.1 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from matplotlib) (3.0.9)
+Requirement already satisfied: python-dateutil>=2.7 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from matplotlib) (2.8.2)
+Requirement already satisfied: six>=1.5 in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+Looking in indexes: https://pypi.org/simple, http://webservice
+Requirement already satisfied: immutabledict in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (4.2.0)
+Looking in indexes: https://pypi.org/simple, http://webservice
+Requirement already satisfied: sentencepiece in /private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages (0.1.99)
+/private/home/beidic/.conda/envs/griffin/bin/python
+/private/home/beidic/.conda/envs/griffin/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Llama-2-7b-chat-hf,cats=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Llama-2-7b-chat-hf,cats=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Llama-2-7b-chat-hf,cats=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Llama-2-7b-chat-hf,cats=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Llama-2-7b-chat-hf,cats=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Llama-2-7b-chat-hf,cats=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Llama-2-7b-chat-hf,cats=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Llama-2-7b-chat-hf,cats=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
