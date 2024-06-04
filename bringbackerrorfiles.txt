@@ -1,8 +1,7 @@
-28562924    devlab yangzho6   beidic  R      10:40      1 learnfair5086
-28563966 learnfair yangzho6   beidic PD       0:00      1 (None)
-28563965 learnfair yangzho6   beidic PD       0:00      1 (None)
-28562797 learnfair yangzho6   beidic  R      40:14      1 learnfair5068
-28562798 learnfair yangzho6   beidic  R      40:14      1 learnfair5135
-28562799 learnfair yangzho6   beidic  R      40:14      1 learnfair5243
-28562800 learnfair yangzho6   beidic  R      40:14      1 learnfair5292
-28562923 learnfair yangzho6   beidic  R      10:03      1 learnfair5100
+28573693    devlab yangzho6   beidic PD       0:00      1 (None)
+28562800 learnfair yangzho6   beidic  R    5:10:14      1 learnfair5292
+28573113 learnfair yangzho6   beidic  R       1:35      1 learnfair5044
+28573114 learnfair yangzho6   beidic  R       1:35      1 learnfair5066
+28572752 learnfair yangzho6   beidic  R       5:39      1 learnfair5277
+28572751 learnfair yangzho6   beidic  R       7:20      1 learnfair5099
+28572750 learnfair yangzho6   beidic  R      10:18      1 learnfair7564
