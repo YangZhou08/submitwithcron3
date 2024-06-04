@@ -11,7 +11,7 @@
 #SBATCH --time=24:00:00
 
 ## partition name
-#SBATCH --partition=learnfair 
+#SBATCH --partition=devlab
 ## number of nodes
 #SBATCH --nodes=1
 
@@ -32,24 +32,25 @@ conda activate base
 # mamba activate yangllm 
 # conda activate yangllm 
 conda activate griffin 
+pip install --force-reinstall transformers==4.38.1
 # cd /fsx-storygen/beidic/yang/transformersprofiling 
 cd /private/home/beidic/yang/GRIFFIN2 
 git checkout yangexp2 
 git pull 
 
-git pull 
+# git pull 
+# # pip install termcolor 
+# # pip install -e . 
 # pip install termcolor 
-# pip install -e . 
-pip install termcolor 
-pip install wandb 
-# pip install datasets 
-# pip install accelerate 
-pip install -U "huggingface_hub[cli]" 
-pip install matplotlib 
-pip install langdetect 
-pip install immutabledict 
-pip install sentencepiece 
-which python 
+# pip install wandb 
+# # pip install datasets 
+# # pip install accelerate 
+# pip install -U "huggingface_hub[cli]" 
+# pip install matplotlib 
+# pip install langdetect 
+# pip install immutabledict 
+# pip install sentencepiece 
+# which python 
 
 export WANDB_API_KEY=fbb26fc8718b8e58d743b5cdcabaa2396656f773 
 wandb login 
@@ -60,5 +61,6 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 echo 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 | transformers-cli login 
 huggingface-cli login --token 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 
 
-accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 
+accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False --tasks gsm8k --batch_size 1 --limit 0.5 
+# accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-chat-hf,cats=True,check=False --tasks gsm8k --batch_size 1 
 # accelerate launch main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True,thresh=0.9 --tasks gsm8k --batch_size 1 --limit=128 
