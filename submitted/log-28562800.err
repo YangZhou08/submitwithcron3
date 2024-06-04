@@ -1,0 +1,321 @@
+Already on 'yangexp2'
+Your configuration specifies to merge with the ref 'refs/heads/yangexp2'
+from the remote, but no such ref was fetched.
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+Traceback (most recent call last):
+  File "/private/home/beidic/.conda/envs/griffin/bin/huggingface-cli", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/huggingface_hub/commands/huggingface_cli.py", line 51, in main
+    service.run()
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/huggingface_hub/commands/user.py", line 98, in run
+    login(token=self.args.token, add_to_git_credential=self.args.add_to_git_credential)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/huggingface_hub/_login.py", line 111, in login
+    _login(token, add_to_git_credential=add_to_git_credential, write_permission=write_permission)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/huggingface_hub/_login.py", line 307, in _login
+    raise ValueError("Invalid token passed!")
+ValueError: Invalid token passed!
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2024-06-04:01:31:05,183 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:01:31:05,184 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:01:31:05,184 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:01:31:05,184 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:01:31:05,212 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:01:31:05,325 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:01:31:06,610 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:01:31:07,697 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:01:31:12,028 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:01:31:12,029 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:01:31:12,030 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:01:31:12,030 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:01:31:12,031 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:01:31:12,031 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:01:31:12,032 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:01:31:12,033 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:01:31:12,034 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:01:31:12,035 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:01:31:12,040 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:01:31:12,041 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.1, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+2024-06-04:01:31:12,041 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:01:31:12,041 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:01:31:12,041 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:01:31:12,041 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:01:31:12,041 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.1, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+2024-06-04:01:31:12,041 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.1, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+2024-06-04:01:31:12,041 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.1, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+2024-06-04:01:31:12,041 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.1, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]2024-06-04:01:31:16,193 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:01:31:16,195 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:01:31:16,202 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:01:31:16,202 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.1, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]2024-06-04:01:31:17,991 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:01:31:17,995 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:01:31:18,008 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:01:31:18,008 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.1, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]2024-06-04:01:31:20,389 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:01:31:20,391 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:01:31:20,397 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:01:31:20,397 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.1, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:22<01:07, 22.53s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:29<01:27, 29.33s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:29<01:27, 29.09s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:29<01:27, 29.11s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:29<01:27, 29.32s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:25<01:16, 25.41s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:29<01:27, 29.14s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:03, 21.18s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:49<00:51, 25.61s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:58<00:58, 29.33s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:58<00:58, 29.24s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:52<00:54, 27.08s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:58<00:58, 29.29s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:58<00:58, 29.29s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:58<00:58, 29.46s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:55<00:55, 27.93s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:28<00:29, 29.49s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:29<00:29, 29.85s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:25<00:28, 28.96s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:29<00:29, 29.85s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:29<00:29, 29.94s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:29<00:29, 29.94s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:21<00:28, 28.20s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:23<00:28, 28.90s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:34<00:00, 20.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:34<00:00, 23.69s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:29<00:00, 19.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:29<00:00, 22.28s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:34<00:00, 20.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:34<00:00, 23.71s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:31<00:00, 19.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:31<00:00, 22.79s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:35<00:00, 20.41s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:35<00:00, 23.78s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:34<00:00, 20.38s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:34<00:00, 23.73s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:35<00:00, 20.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:35<00:00, 23.85s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:27<00:00, 19.48s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:27<00:00, 21.82s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:01:33:32,333 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:33:32,335 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:33:32,585 INFO     [task.py:395] Building contexts for gsm8k on rank 6...
+  0%|          | 0/82 [00:00<?, ?it/s] 24%|██▍       | 20/82 [00:00<00:00, 197.13it/s] 49%|████▉     | 40/82 [00:00<00:00, 198.16it/s] 73%|███████▎  | 60/82 [00:00<00:00, 198.74it/s] 98%|█████████▊| 80/82 [00:00<00:00, 198.67it/s]100%|██████████| 82/82 [00:00<00:00, 198.47it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:01:33:53,432 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:33:53,435 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:01:33:53,571 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:33:53,573 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:33:53,755 INFO     [task.py:395] Building contexts for gsm8k on rank 5...
+  0%|          | 0/82 [00:00<?, ?it/s] 17%|█▋        | 14/82 [00:00<00:00, 131.08it/s]2024-06-04:01:33:53,946 INFO     [task.py:395] Building contexts for gsm8k on rank 3...
+  0%|          | 0/83 [00:00<?, ?it/s] 34%|███▍      | 28/82 [00:00<00:00, 131.51it/s] 16%|█▌        | 13/83 [00:00<00:00, 129.25it/s] 51%|█████     | 42/82 [00:00<00:00, 131.17it/s] 33%|███▎      | 27/83 [00:00<00:00, 130.22it/s] 68%|██████▊   | 56/82 [00:00<00:00, 131.09it/s] 49%|████▉     | 41/83 [00:00<00:00, 130.40it/s] 85%|████████▌ | 70/82 [00:00<00:00, 131.16it/s] 66%|██████▋   | 55/83 [00:00<00:00, 129.94it/s]100%|██████████| 82/82 [00:00<00:00, 130.99it/s]
+ 89%|████████▉ | 74/83 [00:00<00:00, 148.79it/s]100%|██████████| 83/83 [00:00<00:00, 144.35it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:01:34:00,560 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:34:00,562 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:34:00,731 INFO     [task.py:395] Building contexts for gsm8k on rank 7...
+  0%|          | 0/82 [00:00<?, ?it/s] 26%|██▌       | 21/82 [00:00<00:00, 209.61it/s] 52%|█████▏    | 43/82 [00:00<00:00, 211.04it/s] 79%|███████▉  | 65/82 [00:00<00:00, 211.13it/s]100%|██████████| 82/82 [00:00<00:00, 211.16it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-06-04:01:34:01,495 INFO     [xhuggingface.py:314] Using 8 devices with data parallelism
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:01:34:01,570 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:34:01,572 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:34:01,741 INFO     [task.py:395] Building contexts for gsm8k on rank 0...
+  0%|          | 0/83 [00:00<?, ?it/s] 27%|██▋       | 22/83 [00:00<00:00, 210.67it/s] 53%|█████▎    | 44/83 [00:00<00:00, 211.80it/s] 80%|███████▉  | 66/83 [00:00<00:00, 211.96it/s]100%|██████████| 83/83 [00:00<00:00, 211.89it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:01:34:09,635 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:34:09,637 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:34:10,024 INFO     [task.py:395] Building contexts for gsm8k on rank 4...
+  0%|          | 0/82 [00:00<?, ?it/s] 15%|█▍        | 12/82 [00:00<00:00, 117.72it/s] 30%|███       | 25/82 [00:00<00:00, 119.12it/s] 45%|████▌     | 37/82 [00:00<00:00, 115.99it/s] 60%|█████▉    | 49/82 [00:00<00:00, 116.09it/s] 76%|███████▌  | 62/82 [00:00<00:00, 117.84it/s] 91%|█████████▏| 75/82 [00:00<00:00, 118.73it/s]100%|██████████| 82/82 [00:00<00:00, 118.08it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:01:35:10,711 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:35:10,716 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:35:11,618 INFO     [task.py:395] Building contexts for gsm8k on rank 2...
+  0%|          | 0/83 [00:00<?, ?it/s]  8%|▊         | 7/83 [00:00<00:01, 63.32it/s] 17%|█▋        | 14/83 [00:00<00:01, 58.98it/s] 24%|██▍       | 20/83 [00:00<00:01, 53.71it/s] 33%|███▎      | 27/83 [00:00<00:00, 57.78it/s] 40%|███▉      | 33/83 [00:00<00:00, 58.43it/s] 47%|████▋     | 39/83 [00:00<00:00, 55.31it/s] 54%|█████▍    | 45/83 [00:00<00:00, 53.55it/s] 66%|██████▋   | 55/83 [00:00<00:00, 66.87it/s] 75%|███████▍  | 62/83 [00:01<00:00, 67.15it/s] 83%|████████▎ | 69/83 [00:01<00:00, 58.34it/s] 92%|█████████▏| 76/83 [00:01<00:00, 57.35it/s] 99%|█████████▉| 82/83 [00:01<00:00, 53.78it/s]100%|██████████| 83/83 [00:01<00:00, 57.14it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:01:35:53,403 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:35:53,407 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:01:35:54,210 INFO     [task.py:395] Building contexts for gsm8k on rank 1...
+  0%|          | 0/83 [00:00<?, ?it/s]  7%|▋         | 6/83 [00:00<00:01, 58.56it/s] 20%|██        | 17/83 [00:00<00:00, 84.46it/s] 33%|███▎      | 27/83 [00:00<00:00, 91.26it/s] 46%|████▌     | 38/83 [00:00<00:00, 92.99it/s] 58%|█████▊    | 48/83 [00:00<00:00, 85.49it/s] 69%|██████▊   | 57/83 [00:00<00:00, 86.15it/s] 80%|███████▉  | 66/83 [00:00<00:00, 78.35it/s] 93%|█████████▎| 77/83 [00:00<00:00, 85.67it/s]100%|██████████| 83/83 [00:00<00:00, 85.95it/s]
+2024-06-04:01:36:06,375 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:01:36:06,375 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:01:36:06,375 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:01:36:06,375 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:01:36:06,376 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/83 [00:00<?, ?it/s]2024-06-04:01:36:06,376 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:01:36:06,377 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:01:36:06,380 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   1%|          | 1/83 [01:46<2:26:00, 106.83s/it]Running generate_until requests:   2%|▏         | 2/83 [03:31<2:22:36, 105.63s/it]Running generate_until requests:   4%|▎         | 3/83 [04:50<2:04:31, 93.39s/it] Running generate_until requests:   5%|▍         | 4/83 [05:46<1:43:41, 78.75s/it]Running generate_until requests:   6%|▌         | 5/83 [07:30<1:53:52, 87.59s/it]Running generate_until requests:   7%|▋         | 6/83 [08:34<1:42:17, 79.71s/it]Running generate_until requests:   8%|▊         | 7/83 [09:56<1:42:08, 80.64s/it]Running generate_until requests:  10%|▉         | 8/83 [11:11<1:38:10, 78.54s/it]Running generate_until requests:  11%|█         | 9/83 [13:14<1:54:14, 92.63s/it]Running generate_until requests:  12%|█▏        | 10/83 [14:03<1:36:26, 79.27s/it]Running generate_until requests:  13%|█▎        | 11/83 [15:19<1:33:43, 78.11s/it]Running generate_until requests:  14%|█▍        | 12/83 [16:56<1:39:05, 83.75s/it]Running generate_until requests:  16%|█▌        | 13/83 [17:50<1:27:26, 74.95s/it]Running generate_until requests:  17%|█▋        | 14/83 [19:09<1:27:19, 75.94s/it]Running generate_until requests:  18%|█▊        | 15/83 [21:33<1:49:31, 96.64s/it]Running generate_until requests:  19%|█▉        | 16/83 [23:36<1:56:40, 104.48s/it]Running generate_until requests:  20%|██        | 17/83 [25:08<1:50:50, 100.76s/it]Running generate_until requests:  22%|██▏       | 18/83 [26:15<1:38:12, 90.66s/it] Running generate_until requests:  23%|██▎       | 19/83 [27:36<1:33:38, 87.79s/it]Running generate_until requests:  24%|██▍       | 20/83 [29:21<1:37:31, 92.89s/it]Running generate_until requests:  25%|██▌       | 21/83 [30:25<1:27:03, 84.24s/it]Running generate_until requests:  27%|██▋       | 22/83 [31:36<1:21:37, 80.29s/it]Running generate_until requests:  28%|██▊       | 23/83 [33:02<1:22:03, 82.06s/it]Running generate_until requests:  29%|██▉       | 24/83 [34:20<1:19:32, 80.89s/it]Running generate_until requests:  30%|███       | 25/83 [36:34<1:33:29, 96.71s/it]Running generate_until requests:  31%|███▏      | 26/83 [38:09<1:31:15, 96.05s/it]Running generate_until requests:  33%|███▎      | 27/83 [39:47<1:30:23, 96.85s/it]Running generate_until requests:  34%|███▎      | 28/83 [40:39<1:16:23, 83.34s/it]Running generate_until requests:  35%|███▍      | 29/83 [42:23<1:20:40, 89.63s/it]Running generate_until requests:  36%|███▌      | 30/83 [44:01<1:21:15, 92.00s/it]Running generate_until requests:  37%|███▋      | 31/83 [44:51<1:08:56, 79.55s/it]Running generate_until requests:  39%|███▊      | 32/83 [46:34<1:13:21, 86.30s/it]Running generate_until requests:  40%|███▉      | 33/83 [47:57<1:11:19, 85.58s/it]Running generate_until requests:  41%|████      | 34/83 [50:05<1:20:15, 98.28s/it]Running generate_until requests:  42%|████▏     | 35/83 [51:29<1:15:04, 93.84s/it]Running generate_until requests:  43%|████▎     | 36/83 [52:18<1:02:58, 80.39s/it]Running generate_until requests:  45%|████▍     | 37/83 [53:25<58:41, 76.55s/it]  Running generate_until requests:  46%|████▌     | 38/83 [55:04<1:02:24, 83.21s/it]Running generate_until requests:  47%|████▋     | 39/83 [56:17<58:40, 80.00s/it]  Running generate_until requests:  48%|████▊     | 40/83 [58:11<1:04:36, 90.16s/it]Running generate_until requests:  49%|████▉     | 41/83 [59:05<55:38, 79.48s/it]  Running generate_until requests:  51%|█████     | 42/83 [1:00:23<54:00, 79.05s/it]Running generate_until requests:  52%|█████▏    | 43/83 [1:01:45<53:14, 79.85s/it]Running generate_until requests:  53%|█████▎    | 44/83 [1:02:39<46:55, 72.19s/it]Running generate_until requests:  54%|█████▍    | 45/83 [1:03:46<44:42, 70.58s/it]Running generate_until requests:  55%|█████▌    | 46/83 [1:04:53<42:50, 69.46s/it]Running generate_until requests:  57%|█████▋    | 47/83 [1:05:43<38:13, 63.71s/it]Running generate_until requests:  58%|█████▊    | 48/83 [1:06:32<34:34, 59.26s/it]Running generate_until requests:  59%|█████▉    | 49/83 [1:07:11<30:09, 53.22s/it]Running generate_until requests:  60%|██████    | 50/83 [1:08:30<33:33, 61.02s/it]Running generate_until requests:  61%|██████▏   | 51/83 [1:10:01<37:14, 69.81s/it]Running generate_until requests:  63%|██████▎   | 52/83 [1:10:44<31:58, 61.89s/it]Running generate_until requests:  64%|██████▍   | 53/83 [1:11:39<29:49, 59.64s/it]Running generate_until requests:  65%|██████▌   | 54/83 [1:12:37<28:39, 59.28s/it]Running generate_until requests:  66%|██████▋   | 55/83 [1:13:58<30:39, 65.70s/it]Running generate_until requests:  67%|██████▋   | 56/83 [1:16:58<45:00, 100.00s/it]Running generate_until requests:  69%|██████▊   | 57/83 [1:18:51<45:07, 104.12s/it]Running generate_until requests:  70%|██████▉   | 58/83 [1:20:15<40:48, 97.93s/it] Running generate_until requests:  71%|███████   | 59/83 [1:21:09<33:57, 84.90s/it]Running generate_until requests:  72%|███████▏  | 60/83 [1:22:00<28:37, 74.65s/it]Running generate_until requests:  73%|███████▎  | 61/83 [1:23:43<30:29, 83.14s/it]Running generate_until requests:  75%|███████▍  | 62/83 [1:24:57<28:07, 80.37s/it]Running generate_until requests:  76%|███████▌  | 63/83 [1:26:11<26:06, 78.34s/it]Running generate_until requests:  77%|███████▋  | 64/83 [1:27:17<23:42, 74.85s/it]Running generate_until requests:  78%|███████▊  | 65/83 [1:28:10<20:28, 68.28s/it]Running generate_until requests:  80%|███████▉  | 66/83 [1:28:59<17:41, 62.44s/it]Running generate_until requests:  81%|████████  | 67/83 [1:29:40<14:53, 55.86s/it]Running generate_until requests:  82%|████████▏ | 68/83 [1:30:56<15:30, 62.01s/it]Running generate_until requests:  83%|████████▎ | 69/83 [1:33:30<20:53, 89.53s/it]Running generate_until requests:  84%|████████▍ | 70/83 [1:35:02<19:34, 90.32s/it]Running generate_until requests:  86%|████████▌ | 71/83 [1:35:46<15:19, 76.61s/it]Running generate_until requests:  87%|████████▋ | 72/83 [1:36:45<13:02, 71.17s/it]Running generate_until requests:  88%|████████▊ | 73/83 [1:37:49<11:29, 69.00s/it]Running generate_until requests:  89%|████████▉ | 74/83 [1:39:06<10:43, 71.54s/it]Running generate_until requests:  90%|█████████ | 75/83 [1:41:02<11:17, 84.63s/it]Running generate_until requests:  92%|█████████▏| 76/83 [1:41:35<08:04, 69.15s/it]Running generate_until requests:  93%|█████████▎| 77/83 [1:42:29<06:27, 64.63s/it]Running generate_until requests:  94%|█████████▍| 78/83 [1:43:39<05:32, 66.42s/it]Running generate_until requests:  95%|█████████▌| 79/83 [1:44:36<04:14, 63.64s/it]Running generate_until requests:  96%|█████████▋| 80/83 [1:46:00<03:28, 69.50s/it]Running generate_until requests:  98%|█████████▊| 81/83 [1:47:17<02:23, 71.92s/it]Running generate_until requests:  99%|█████████▉| 82/83 [1:48:31<01:12, 72.38s/it]Running generate_until requests: 100%|██████████| 83/83 [1:49:40<00:00, 71.43s/it]Running generate_until requests: 100%|██████████| 83/83 [1:49:40<00:00, 79.28s/it]
+[2024-06-04 05:20:17,968] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: -7) local_rank: 0 (pid: 885544) of binary: /private/home/beidic/.conda/envs/griffin/bin/python
+Traceback (most recent call last):
+  File "/private/home/beidic/.conda/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+======================================================
+main.py FAILED
+------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-06-04_05:20:17
+  host      : learnfair5292.h2.fair
+  rank      : 1 (local_rank: 1)
+  exitcode  : -7 (pid: 885545)
+  error_file: <N/A>
+  traceback : Signal 7 (SIGBUS) received by PID 885545
+[2]:
+  time      : 2024-06-04_05:20:17
+  host      : learnfair5292.h2.fair
+  rank      : 4 (local_rank: 4)
+  exitcode  : -7 (pid: 885548)
+  error_file: <N/A>
+  traceback : Signal 7 (SIGBUS) received by PID 885548
+------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-06-04_05:20:17
+  host      : learnfair5292.h2.fair
+  rank      : 0 (local_rank: 0)
+  exitcode  : -7 (pid: 885544)
+  error_file: <N/A>
+  traceback : Signal 7 (SIGBUS) received by PID 885544
+======================================================
+/var/spool/slurm//job28562800/slurm_script: line 65: 885533 Bus error               (core dumped) accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,spr=$sparsitylevel,check=True,kernel_size=16,thr=0.1 --tasks gsm8k --batch_size 1 --limit 0.5
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2024-06-04:05:20:32,008 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:05:20:32,009 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:05:20:32,009 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:05:20:32,011 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:05:20:32,068 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:05:20:32,139 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:05:20:32,281 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:05:20:33,632 INFO     [main.py:288] Verbosity set to INFO
+2024-06-04:05:20:38,995 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:05:20:38,996 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:05:20:38,997 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:05:20:38,997 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:05:20:39,001 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:05:20:39,001 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.2, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+2024-06-04:05:20:39,002 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:05:20:39,002 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.2, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+2024-06-04:05:20:39,015 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:05:20:39,016 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:05:20:39,020 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:05:20:39,020 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.2, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+2024-06-04:05:20:39,049 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:05:20:39,050 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:05:20:39,056 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:05:20:39,057 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.2, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+2024-06-04:05:20:39,091 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:05:20:39,092 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:05:20:39,097 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:05:20:39,097 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.2, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+2024-06-04:05:20:39,161 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:05:20:39,162 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:05:20:39,167 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:05:20:39,167 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.2, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]2024-06-04:05:20:43,383 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:05:20:43,385 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:05:20:43,389 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:05:20:43,389 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.2, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.20s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.89s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.89s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.91s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.87s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.97s/it]2024-06-04:05:20:44,127 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-06-04:05:20:44,129 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-06-04:05:20:44,133 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-06-04:05:20:44,134 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': True, 'spr': 0.2, 'check': True, 'kernel_size': 16, 'thr': 0.1}
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.11s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.91s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.92s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.92s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.96s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.99s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.26s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.91s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.89s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.07s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.89s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.92s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.96s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.39s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.36s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.18s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.52s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.37s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.37s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.06s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.40s/it]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.64s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:06<00:02,  2.16s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.79s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.14s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:11<00:03,  3.55s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:13<00:00,  2.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:13<00:00,  3.27s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-06-04:05:22:05,001 INFO     [xhuggingface.py:314] Using 8 devices with data parallelism
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:05:22:05,077 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:05:22:05,079 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:05:22:05,468 INFO     [task.py:395] Building contexts for gsm8k on rank 0...
+  0%|          | 0/83 [00:00<?, ?it/s] 17%|█▋        | 14/83 [00:00<00:00, 130.48it/s] 34%|███▎      | 28/83 [00:00<00:00, 127.87it/s] 51%|█████     | 42/83 [00:00<00:00, 129.56it/s] 67%|██████▋   | 56/83 [00:00<00:00, 130.46it/s] 84%|████████▍ | 70/83 [00:00<00:00, 130.85it/s]100%|██████████| 83/83 [00:00<00:00, 130.52it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:05:22:09,971 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:05:22:09,973 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:05:22:10,038 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:05:22:10,040 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:05:22:10,153 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:05:22:10,156 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:05:22:10,228 INFO     [task.py:395] Building contexts for gsm8k on rank 7...
+  0%|          | 0/82 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-06-04:05:22:10,303 INFO     [task.py:395] Building contexts for gsm8k on rank 1...
+  0%|          | 0/83 [00:00<?, ?it/s] 18%|█▊        | 15/82 [00:00<00:00, 147.54it/s]Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:05:22:10,363 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:05:22:10,366 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+ 16%|█▌        | 13/83 [00:00<00:00, 126.85it/s] 37%|███▋      | 30/82 [00:00<00:00, 137.87it/s]2024-06-04:05:22:10,471 INFO     [task.py:395] Building contexts for gsm8k on rank 5...
+  0%|          | 0/82 [00:00<?, ?it/s] 31%|███▏      | 26/83 [00:00<00:00, 128.55it/s] 54%|█████▎    | 44/82 [00:00<00:00, 134.06it/s] 17%|█▋        | 14/82 [00:00<00:00, 131.95it/s] 48%|████▊     | 40/83 [00:00<00:00, 130.72it/s] 71%|███████   | 58/82 [00:00<00:00, 132.27it/s]2024-06-04:05:22:10,678 INFO     [task.py:395] Building contexts for gsm8k on rank 6...
+  0%|          | 0/82 [00:00<?, ?it/s] 34%|███▍      | 28/82 [00:00<00:00, 132.18it/s] 65%|██████▌   | 54/83 [00:00<00:00, 131.23it/s] 88%|████████▊ | 72/82 [00:00<00:00, 132.34it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+ 17%|█▋        | 14/82 [00:00<00:00, 132.37it/s] 51%|█████     | 42/82 [00:00<00:00, 132.19it/s] 82%|████████▏ | 68/83 [00:00<00:00, 131.69it/s]100%|██████████| 82/82 [00:00<00:00, 134.09it/s]
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:05:22:10,885 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:05:22:10,887 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+ 34%|███▍      | 28/82 [00:00<00:00, 131.43it/s] 68%|██████▊   | 56/82 [00:00<00:00, 132.37it/s] 99%|█████████▉| 82/83 [00:00<00:00, 131.95it/s]100%|██████████| 83/83 [00:00<00:00, 131.14it/s]
+ 51%|█████     | 42/82 [00:00<00:00, 130.52it/s] 85%|████████▌ | 70/82 [00:00<00:00, 128.83it/s] 68%|██████▊   | 56/82 [00:00<00:00, 130.73it/s]100%|██████████| 82/82 [00:00<00:00, 128.48it/s]
+ 85%|████████▌ | 70/82 [00:00<00:00, 130.00it/s]2024-06-04:05:22:11,288 INFO     [task.py:395] Building contexts for gsm8k on rank 3...
+  0%|          | 0/83 [00:00<?, ?it/s]100%|██████████| 82/82 [00:00<00:00, 131.02it/s]
+ 16%|█▌        | 13/83 [00:00<00:00, 127.38it/s] 31%|███▏      | 26/83 [00:00<00:00, 127.26it/s] 47%|████▋     | 39/83 [00:00<00:00, 127.24it/s] 63%|██████▎   | 52/83 [00:00<00:00, 128.04it/s] 80%|███████▉  | 66/83 [00:00<00:00, 129.40it/s] 96%|█████████▋| 80/83 [00:00<00:00, 130.10it/s]100%|██████████| 83/83 [00:00<00:00, 129.13it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:05:22:36,480 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:05:22:36,483 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:05:22:37,033 INFO     [task.py:395] Building contexts for gsm8k on rank 4...
+  0%|          | 0/82 [00:00<?, ?it/s] 15%|█▍        | 12/82 [00:00<00:00, 119.55it/s] 30%|███       | 25/82 [00:00<00:00, 120.08it/s] 46%|████▋     | 38/82 [00:00<00:00, 121.25it/s] 62%|██████▏   | 51/82 [00:00<00:00, 121.24it/s] 78%|███████▊  | 64/82 [00:00<00:00, 121.22it/s] 94%|█████████▍| 77/82 [00:00<00:00, 121.22it/s]100%|██████████| 82/82 [00:00<00:00, 121.04it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+2024-06-04:05:22:57,034 WARNING  [load.py:1631] Using the latest cached version of the dataset since gsm8k couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:05:22:57,037 WARNING  [cache.py:95] Found the latest cached dataset configuration 'main' at /private/home/beidic/.cache/huggingface/datasets/gsm8k/main/0.0.0/e53f048856ff4f594e959d75785d2c2d37b678ee (last modified on Thu May 16 07:01:08 2024).
+2024-06-04:05:22:57,744 INFO     [task.py:395] Building contexts for gsm8k on rank 2...
+  0%|          | 0/83 [00:00<?, ?it/s] 10%|▉         | 8/83 [00:00<00:00, 79.84it/s] 23%|██▎       | 19/83 [00:00<00:00, 94.49it/s] 35%|███▍      | 29/83 [00:00<00:00, 77.71it/s] 46%|████▌     | 38/83 [00:00<00:00, 76.58it/s] 55%|█████▌    | 46/83 [00:00<00:00, 71.83it/s] 65%|██████▌   | 54/83 [00:00<00:00, 73.42it/s] 75%|███████▍  | 62/83 [00:00<00:00, 69.73it/s] 88%|████████▊ | 73/83 [00:00<00:00, 79.61it/s] 99%|█████████▉| 82/83 [00:01<00:00, 71.60it/s]100%|██████████| 83/83 [00:01<00:00, 74.06it/s]
+2024-06-04:05:23:08,808 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:05:23:08,808 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:05:23:08,808 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:05:23:08,808 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:05:23:08,808 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:05:23:08,808 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:05:23:08,809 INFO     [xevaluator.py:395] Running generate_until requests
+2024-06-04:05:23:08,809 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/83 [00:00<?, ?it/s]Running generate_until requests:   1%|          | 1/83 [01:50<2:30:22, 110.03s/it]Running generate_until requests:   2%|▏         | 2/83 [03:16<2:09:53, 96.22s/it] Running generate_until requests:   4%|▎         | 3/83 [04:05<1:39:39, 74.74s/it]Running generate_until requests:   5%|▍         | 4/83 [04:37<1:16:09, 57.84s/it]Running generate_until requests:   6%|▌         | 5/83 [05:08<1:02:29, 48.07s/it]Running generate_until requests:   7%|▋         | 6/83 [05:44<56:21, 43.92s/it]  
