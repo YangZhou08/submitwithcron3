@@ -37,19 +37,15 @@ cd /private/home/beidic/yang/GRIFFIN2
 git checkout yangexp2 
 git pull 
 
-git pull 
+# git pull 
 # pip install termcolor 
-# pip install -e . 
-pip install termcolor 
-pip install wandb 
-# pip install datasets 
-# pip install accelerate 
-pip install -U "huggingface_hub[cli]" 
-pip install matplotlib 
-pip install langdetect 
-pip install immutabledict 
-pip install sentencepiece 
-which python 
+# pip install wandb 
+# pip install -U "huggingface_hub[cli]" 
+# pip install matplotlib 
+# pip install langdetect 
+# pip install immutabledict 
+# pip install sentencepiece 
+# which python 
 
 export WANDB_API_KEY=fbb26fc8718b8e58d743b5cdcabaa2396656f773 
 wandb login 

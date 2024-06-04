@@ -63,6 +63,6 @@ huggingface-cli login --token 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
 sparsitylevels=(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9) 
 
 for sparsitylevel in ${sparsitylevels[@]}; do 
-    accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,spr=$sparsitylevel,check=False --tasks gsm8k --batch_size 1 --limit 0.5 
+    accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,spr=$sparsitylevel,check=True,kernel_size=16,thr=0.1 --tasks gsm8k --batch_size 1 --limit 0.5 
 done 
 # accelerate launch main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True,thresh=0.9 --tasks gsm8k --batch_size 1 --limit=128 
