@@ -30,8 +30,8 @@ file = open("./bash_tasks/bringbackerrorfiles_timehash{}.sh".format(hash_of_time
 #             \nscp -r {} zx22@terminator8.cs.rice.edu:/home/zx22/yangzho ".format(checkpoint_path, checkpoint_folder, namingpreference, namingpreference, namingpreference) 
 commands = "" 
 for jobid in jobidsbringing: 
-    commands += "mv /private/home/beidic/yang/log/log-{}.err ../submitted\n".format(jobid) 
-    commands += "mv /private/home/beidic/yang/log/log-{}.out ../submitted\n\n".format(jobid) 
+    commands += "cp /private/home/beidic/yang/log/log-{}.err ../submitted\n".format(jobid) 
+    commands += "cp /private/home/beidic/yang/log/log-{}.out ../submitted\n\n".format(jobid) 
 
 file.write(commands) 
 file.close() 
