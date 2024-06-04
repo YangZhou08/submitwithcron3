@@ -1,0 +1,375 @@
+Already on 'yangexp2'
+ERROR: Exception:
+Traceback (most recent call last):
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/cli/base_command.py", line 180, in exc_logging_wrapper
+    status = run_func(*args)
+             ^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/cli/req_command.py", line 245, in wrapper
+    return func(self, options, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/commands/install.py", line 324, in run
+    session = self.get_default_session(options)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/cli/req_command.py", line 95, in get_default_session
+    self._session = self.enter_context(self._build_session(options))
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/cli/req_command.py", line 122, in _build_session
+    session = PipSession(
+              ^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/network/session.py", line 342, in __init__
+    self.headers["User-Agent"] = user_agent()
+                                 ^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/network/session.py", line 175, in user_agent
+    setuptools_dist = get_default_environment().get_distribution("setuptools")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/metadata/importlib/_envs.py", line 189, in get_distribution
+    return next(matches, None)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/metadata/importlib/_envs.py", line 184, in <genexpr>
+    matches = (
+              ^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/metadata/base.py", line 626, in iter_all_distributions
+    for dist in self._iter_distributions():
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/metadata/importlib/_envs.py", line 177, in _iter_distributions
+    for dist in finder.find_eggs(location):
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/metadata/importlib/_envs.py", line 144, in find_eggs
+    yield from self._find_eggs_in_dir(location)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_internal/metadata/importlib/_envs.py", line 111, in _find_eggs_in_dir
+    from pip._vendor.pkg_resources import find_distributions
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_vendor/pkg_resources/__init__.py", line 3327, in <module>
+    @_call_aside
+     ^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_vendor/pkg_resources/__init__.py", line 3302, in _call_aside
+    f(*args, **kwargs)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_vendor/pkg_resources/__init__.py", line 3340, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_vendor/pkg_resources/__init__.py", line 622, in _build_master
+    ws = cls()
+         ^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_vendor/pkg_resources/__init__.py", line 615, in __init__
+    self.add_entry(entry)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_vendor/pkg_resources/__init__.py", line 671, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2134, in find_on_path
+    for dist in factory(fullpath):
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2192, in distributions_from_metadata
+    if len(os.listdir(path)) == 0:
+           ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/~yping_extensions-4.12.1.dist-info'
+Traceback (most recent call last):
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 148, in _get_module_details
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/wandb/__init__.py", line 27, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/wandb/sdk/__init__.py", line 25, in <module>
+    from .artifacts.artifact import Artifact
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/wandb/sdk/artifacts/artifact.py", line 36, in <module>
+    from wandb import data_types, env, util
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/wandb/data_types.py", line 32, in <module>
+    from .sdk.data_types import _dtypes
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/wandb/sdk/data_types/_dtypes.py", line 364, in <module>
+    NumberType.types.append(np.byte)
+                            ^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/wandb/util.py", line 209, in __getattribute__
+    state.load()
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/wandb/util.py", line 202, in load
+    self.module.__spec__.loader.exec_module(self.module)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+wandb: ERROR Find detailed error logs at: /tmp/debug-cli.beidic.log
+Error: The wandb service process exited with 1. Ensure that `sys.executable` is a valid python interpreter. You can override it with the `_executable` setting or with the `WANDB__EXECUTABLE` environment variable.
+Traceback (most recent call last):
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ImportError: libopenblas64_p-r0-0cf96a72.3.23.dev.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/numpy/core/__init__.py", line 50, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/private/home/beidic/.conda/envs/griffin/bin/python"
+  * The NumPy version is: "1.26.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libopenblas64_p-r0-0cf96a72.3.23.dev.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/private/home/beidic/.conda/envs/griffin/bin/transformers-cli", line 5, in <module>
+    from transformers.commands.transformers_cli import main
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/__init__.py", line 26, in <module>
+    from . import dependency_versions_check
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/dependency_versions_check.py", line 16, in <module>
+    from .utils.versions import require_version, require_version_core
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/utils/__init__.py", line 33, in <module>
+    from .generic import (
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/transformers/utils/generic.py", line 28, in <module>
+    import numpy as np
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+Traceback (most recent call last):
+  File "/private/home/beidic/.conda/envs/griffin/bin/huggingface-cli", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/huggingface_hub/commands/huggingface_cli.py", line 51, in main
+    service.run()
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/huggingface_hub/commands/user.py", line 98, in run
+    login(token=self.args.token, add_to_git_credential=self.args.add_to_git_credential)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/huggingface_hub/_login.py", line 111, in login
+    _login(token, add_to_git_credential=add_to_git_credential, write_permission=write_permission)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/huggingface_hub/_login.py", line 307, in _login
+    raise ValueError("Invalid token passed!")
+ValueError: Invalid token passed!
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from lm_eval import utils
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from lm_eval import utils
+    from lm_eval import utils
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/__init__.py", line 1, in <module>
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from lm_eval import utils
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    from .evaluator import evaluate, simple_evaluate
+    from .evaluator import evaluate, simple_evaluate
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/evaluator.py", line 13, in <module>
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    import lm_eval.models
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    import lm_eval.models
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    import lm_eval.models
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    import lm_eval.models
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    from . import (    
+from . import (
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/anthropic_llms.py", line 8, in <module>
+          File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/anthropic_llms.py", line 8, in <module>
+from . import (from . import (
+
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/anthropic_llms.py", line 8, in <module>
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/anthropic_llms.py", line 8, in <module>
+    from lm_eval.models.utils import retry_on_specific_exceptions
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/utils.py", line 208, in <module>
+    from lm_eval.models.utils import retry_on_specific_exceptions
+        from lm_eval.models.utils import retry_on_specific_exceptionsfrom lm_eval.models.utils import retry_on_specific_exceptions
+
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/utils.py", line 208, in <module>
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/utils.py", line 208, in <module>
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/utils.py", line 208, in <module>
+    class MultiTokenEOSCriteria(transformers.StoppingCriteria):
+    class MultiTokenEOSCriteria(transformers.StoppingCriteria):
+                class MultiTokenEOSCriteria(transformers.StoppingCriteria): class MultiTokenEOSCriteria(transformers.StoppingCriteria):
+  
+                                                                                                   ^    ^   ^   ^   ^   ^  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^AttributeError^^^: ^^^module 'transformers' has no attribute 'StoppingCriteria'^^^^^
+^^
+
+
+AttributeErrorAttributeErrorAttributeError: : : module 'transformers' has no attribute 'StoppingCriteria'module 'transformers' has no attribute 'StoppingCriteria'module 'transformers' has no attribute 'StoppingCriteria'
+
+
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from lm_eval import utils
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    import lm_eval.models
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    from . import (
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/anthropic_llms.py", line 8, in <module>
+    from lm_eval.models.utils import retry_on_specific_exceptions
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/utils.py", line 208, in <module>
+    class MultiTokenEOSCriteria(transformers.StoppingCriteria):
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'transformers' has no attribute 'StoppingCriteria'
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from lm_eval import utils
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    import lm_eval.models
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    from . import (
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/anthropic_llms.py", line 8, in <module>
+    from lm_eval.models.utils import retry_on_specific_exceptions
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/utils.py", line 208, in <module>
+    class MultiTokenEOSCriteria(transformers.StoppingCriteria):
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'transformers' has no attribute 'StoppingCriteria'
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from lm_eval import utils
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    import lm_eval.models
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    from . import (
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/anthropic_llms.py", line 8, in <module>
+    from lm_eval.models.utils import retry_on_specific_exceptions
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/utils.py", line 208, in <module>
+    class MultiTokenEOSCriteria(transformers.StoppingCriteria):
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'transformers' has no attribute 'StoppingCriteria'
+Traceback (most recent call last):
+  File "/private/home/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from lm_eval import utils
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    import lm_eval.models
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    from . import (
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/anthropic_llms.py", line 8, in <module>
+    from lm_eval.models.utils import retry_on_specific_exceptions
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/lm_eval/models/utils.py", line 208, in <module>
+    class MultiTokenEOSCriteria(transformers.StoppingCriteria):
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'transformers' has no attribute 'StoppingCriteria'
+[2024-06-04 01:00:31,958] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 538827) of binary: /private/home/beidic/.conda/envs/griffin/bin/python
+Traceback (most recent call last):
+  File "/private/home/beidic/.conda/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/home/beidic/.conda/envs/griffin/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-06-04_01:00:31
+  host      : learnfair7619.h2.fair
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 538828)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-06-04_01:00:31
+  host      : learnfair7619.h2.fair
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 538829)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-06-04_01:00:31
+  host      : learnfair7619.h2.fair
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 538830)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-06-04_01:00:31
+  host      : learnfair7619.h2.fair
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 538831)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-06-04_01:00:31
+  host      : learnfair7619.h2.fair
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 538832)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-06-04_01:00:31
+  host      : learnfair7619.h2.fair
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 538833)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-06-04_01:00:31
+  host      : learnfair7619.h2.fair
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 538834)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-06-04_01:00:31
+  host      : learnfair7619.h2.fair
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 538827)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+/var/spool/slurm//job28562608/slurm_script: line 63: 538766 Bus error               (core dumped) accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1
