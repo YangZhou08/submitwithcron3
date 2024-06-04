@@ -1,5 +1,4 @@
-28562611    devlab yangzho6   beidic PD       0:00      1 (None)
-28562610 learnfair yangzho6   beidic PD       0:00      1 (None)
-28562609 learnfair yangzho6   beidic PD       0:00      1 (None)
-28562608 learnfair yangzho6   beidic PD       0:00      1 (None)
-28562607 learnfair yangzho6   beidic PD       0:00      1 (None)
+28562611    devlab yangzho6   beidic  R      15:39      1 learnfair5068
+28562681    devlab yangzho6   beidic  R      10:40      1 learnfair5220
+28562609 learnfair yangzho6   beidic  R      15:32      1 learnfair5135
+28562682 learnfair yangzho6   beidic  R       9:29      1 learnfair5067
