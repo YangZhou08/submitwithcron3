@@ -19,8 +19,8 @@
 # mv /fsx-storygen/beidic/yang/log/log-1664318.err ../submitted 
 # mv /fsx-storygen/beidic/yang/log/log-1664318.out ../submitted 
 
-mv /fsx-storygen/beidic/yang/log/log-1932254.err ../submitted 
-mv /fsx-storygen/beidic/yang/log/log-1932254.out ../submitted 
+mv /fsx-storygen/beidic/yang/log/log-28608660.err ../submitted 
+mv /fsx-storygen/beidic/yang/log/log-28608660.out ../submitted 
 # /opt/slurm/bin/scancel 1825137 
 # /opt/slurm/bin/scancel 1839692 
 
@@ -33,5 +33,5 @@ mv /fsx-storygen/beidic/yang/log/log-1932254.out ../submitted
 # mv /fsx-storygen/beidic/yang/log/log-1929998.err ../submitted 
 # mv /fsx-storygen/beidic/yang/log/log-1929998.out ../submitted 
 
-mv /fsx-storygen/beidic/yang/log/log-1934370.err ../submitted 
-mv /fsx-storygen/beidic/yang/log/log-1934370.out ../submitted 
+mv /fsx-storygen/beidic/yang/log/log-28608661.err ../submitted 
+mv /fsx-storygen/beidic/yang/log/log-28608661.out ../submitted 
