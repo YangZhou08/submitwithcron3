@@ -59,6 +59,6 @@ huggingface-cli login --token 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
 thresholds=(0.05 0.1 0.15 0.2 0.3 0.4)
 
 for threshold in ${thresholds[@]}; do
-    accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,spr=0.5,check=True,kernel_size=16,thr=$threshold --tasks gsm8k --batch_size 1 --limit 0.5 
+    accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,spr=0.7,check=True,kernel_size=16,thr=$threshold --tasks gsm8k --batch_size 1 --limit 0.5 
 done
 # accelerate launch main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True,thresh=0.9 --tasks gsm8k --batch_size 1 --limit=128 
