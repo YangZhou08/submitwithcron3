@@ -13,9 +13,9 @@
 # cp /private/home/beidic/yang/log/log-28572752.err ../submitted 
 # cp /private/home/beidic/yang/log/log-28572752.out ../submitted 
 
-cp /private/home/beidic/yang/log/log-28677087.err ../submitted 
 cp /private/home/beidic/yang/log/log-28677087.out ../submitted 
+cp /private/home/beidic/yang/log/log-28677087.err ../submitted 
 
-cp /private/home/beidic/yang/log/log-28677088.err ../submitted
 cp /private/home/beidic/yang/log/log-28677088.out ../submitted 
+cp /private/home/beidic/yang/log/log-28677088.err ../submitted 
 
