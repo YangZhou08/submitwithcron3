@@ -1,0 +1,8 @@
+M	__pycache__/cache.cpython-312.pyc
+M	__pycache__/xevaluator.cpython-312.pyc
+M	__pycache__/xhuggingface.cpython-312.pyc
+Your branch is up to date with 'origin/yangexp2'.
+Already up to date.
+/private/home/beidic/.conda/envs/griffin/bin/python
+[1m[31mERROR! `huggingface-cli login` uses an outdated login mechanism that is not compatible with the Hugging Face Hub backend anymore. Please use `huggingface-cli login instead.[0m
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
