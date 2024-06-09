@@ -54,7 +54,7 @@ which python
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 
 
 echo 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 | transformers-cli login 
-huggingface-cli login --token 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 
+huggingface-cli login --token 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 
 
 # thresholds=(0.05 0.1 0.15 0.2 0.3 0.4) 
 numbershots=(0 2 4 8 16)
